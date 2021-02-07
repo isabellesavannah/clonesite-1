@@ -1,0 +1,43 @@
+*{
+    outline: 1px solid salmon;
+}
+.image-one{
+    background-color: grey;
+    background-image: url("./whale.JPG");
+    background-size: cover;
+    background-position: center;
+}
+.inny{
+    height: 30px;
+}
+@media only screen and (max-width:376px) {
+    .cardy {
+        position: ;
+    }
+}
+@media screen and (max-width:376px) {
+    .bye {
+        display: none;
+    }
+}
+@media only screen and (min-width:768px) {
+    .cardy {
+        height:120%;
+    }
+}
+.cardy-two{
+    background-color: aquamarine;
+}
+.cardy-three{
+    background-color: darkolivegreen;
+}
+.c-text-one{
+    margin-top: 20%;
+}
+.ending{
+    background-color: lightgreen;
+}
+.image-text{
+    justify-content: space-around;
+    align-items: center;
+}
