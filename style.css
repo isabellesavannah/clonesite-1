@@ -12,7 +12,7 @@
 }
 @media only screen and (max-width:376px) {
     .cardy {
-        position: ;
+        justify-content: center;
     }
 }
 @media screen and (max-width:376px) {
@@ -23,21 +23,25 @@
 @media only screen and (min-width:768px) {
     .cardy {
         height:120%;
+        justify-content: center;
     }
 }
 .cardy-two{
     background-color: aquamarine;
+    align-items: center;
 }
 .cardy-three{
     background-color: darkolivegreen;
 }
 .c-text-one{
     margin-top: 20%;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
 }
 .ending{
     background-color: lightgreen;
 }
-.image-text{
-    justify-content: space-around;
-    align-items: center;
+.font{
+    font-family: cursive;
 }
